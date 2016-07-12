@@ -1,0 +1,12 @@
+@import '_normalize.scss';
+@import '_owl.carousel.scss';
+@import '_jquery.circliful.scss';
+@import '_clients.scss';
+@import '_slider.scss';
+
+.row{
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}

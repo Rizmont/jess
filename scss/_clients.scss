@@ -1,0 +1,40 @@
+.clients{
+margin-bottom: 30px;
+    .owl-carousel{
+        padding: 20px 0;
+        margin: 0 auto;
+        .item{
+            width: 90%;
+            margin: 0 auto;
+            display: table;
+            a{
+              display: table-cell;
+              vertical-align: middle;
+              img{
+                max-width: 80%;
+                margin: 0 auto;
+
+            }
+        }
+    }
+}
+.owl-controls{
+    font-size: 0.1;
+    text-align: center;
+    margin-top: 20px;
+    .owl-prev, .owl-next{
+        display: inline-block;
+             text-indent: -99999px;
+        background: url("../images/left.png");
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+    }
+    .owl-next{
+        transform: rotate(180deg);
+    }
+}
+
+}
+
+

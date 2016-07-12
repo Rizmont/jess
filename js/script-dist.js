@@ -1,0 +1,2 @@
+function setEqualHeight(t){var i=0;t.each(function(){currentHeight=$(this).height(),currentHeight>i&&(i=currentHeight)}),t.height(i)}$(".owl-carousel").owlCarousel({loop:!0,margin:10,nav:!0,autoplay:!0,items:6}),$(".owl-carousel2").owlCarousel({loop:!0,margin:10,nav:!0,autoplay:!0,items:1}),$(document).ready(function(){$("#myStat").circliful(),$("#myStat2").circliful(),$("#myStat3").circliful(),$("#myStat4").circliful()}),$(document).ready(function(){setEqualHeight($(".item"))}),$(window).resize(function(){setEqualHeight($(".item"))});
+//# sourceMappingURL=script-dist.js.map
